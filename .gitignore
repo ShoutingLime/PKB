@@ -1,0 +1,13 @@
+/.idea/
+/node_modules/
+/dist/
+/misc/
+/app/css/
+/**/*.ai
+/**/*.log
+/**/*.pdf
+/**/*.psd
+/**/*.sublime*
+/**/Thumbs.db
+/**/.DS_Store
+//libs32//libs64/

@@ -1,10 +1,10 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2018-06-06T17:23:36
+# Project created by QtCreator 2018-06-12T14:29:59
 #
 #-------------------------------------------------
 
-QT       += core gui xml svg
+QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -25,17 +25,24 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp \
-    main.cpp \
-    mainwindow.cpp
+        mainwindow.cpp
 
 HEADERS += \
         mainwindow.h \
-    mainwindow.h
 
 FORMS += \
         mainwindow.ui
 
+SUBDIRS += \
+        PKB.pro
+
 DISTFILES += \
-        img/logo.svg \
-    img/avatar.jpeg
+        img/book-closed.svg \
+        img/book-opened.svg \
+        img/logo.png \
+        pkb.ico \
+
+RESOURCES += \
+        pkb.rc
+
+RC_ICONS = pkb.ico
