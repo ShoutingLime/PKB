@@ -28,7 +28,7 @@ SOURCES += \
         mainwindow.cpp
 
 HEADERS += \
-        mainwindow.h \
+        mainwindow.h
 
 FORMS += \
         mainwindow.ui
@@ -39,10 +39,13 @@ SUBDIRS += \
 DISTFILES += \
         img/book-closed.svg \
         img/book-opened.svg \
-        img/logo.png \
-        pkb.ico \
+        img/logo.svg \
+        fav.ico \
+    img/book-closed--small.svg \
+    img/book-opened--small.svg \
+    pkb_db/I. Web programming/001. Roadmaps/000. Roadmaps.html
 
 RESOURCES += \
         pkb.rc
 
-RC_ICONS = pkb.ico
+RC_ICONS = fav.ico
